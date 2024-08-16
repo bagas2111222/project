@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 5% 15%;
+    padding: 0px 5px;
+    width: 1200px;
+
+}
+
+.box {
+    background-color: rgba(49, 90, 168, 0.10);
+    border-radius: 20px;
+    margin: 1%;
+    padding: auto;
+    padding: 1%;
+}
+
+.col-1 {
+    background: linear-gradient(54deg, #315AA8 0%, rgba(166, 115, 232, 0.44) 100%);
+    border-radius: 15px;
+    padding: 1% 50%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+table {
+    margin: 5px 0px 5px 120px;
+    padding: 10px 120px 120px 20px;
+    background: lightblue;
+    width: 800px;
+    border: 1px solid black;
+}
+
+table th,
+tbody {
+    padding: 5px 20px 2px 15px;
+    text-align: center;
+}
+
+table,
+tr,
+th {
+    text-align: center;
+    font-size: 15px;
+    background-color: lightslategray;
+    color: #fff;
+}
+
+td {
+    font-size: 13px;
+    font-weight: 500;
+    /* border: none; */
+    background-color: rgba(245, 245, 245, 0.833);
+    color: #000;
+}
+
+.row-0 {
+    padding: 20px 20px 20px 290px;
+    margin-right: -520px;
+}
+
+.row-01 {
+    margin-left: -500px;
+
+}
+
+.row-05 {
+    margin-left: -460px;
+    margin-top: -20px;
+    padding: 0px 5px;
+
+}
+#myChart{
+    margin-left:auto !important;
+    margin-right: auto !important;
+}

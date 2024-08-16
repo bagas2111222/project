@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .content {
+    background-color: rgba(49, 90, 168, 0.10);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px 250px;
+    padding: 20px 20px;
+    width: 1200px;
+  }
+
+  .box {
+    padding: 20px 20px;
+    height: 700px;
+  }
+
+  .row h1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 70px 30px 70px;
+    text-transform: uppercase;
+  }
+
+  .menu ul li {
+    list-style-type: none;
+  }
+
+  .menu li {
+    display: inline;
+  }
+
+  .menu li a {
+    padding: 5px 5px;
+    text-decoration: none;
+    color: black;
+    position: relative; /* Add this line */
+  }
+
+  .menu li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Adjust the thickness of the underline as needed */
+    background-color: black; /* Adjust the color of the underline as needed */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0); /* Initially, the underline is not visible */
+    transform-origin: bottom;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .menu li a:hover::before {
+    transform: scaleX(1); /* When hovering, make the underline visible */
+  }
+
+  .row-2 {
+    padding: 5px 50px;
+    justify-content: center;
+    width: 890px;
+    height: 90px;
+  }
+
+  table {
+    border-radius: 20px;
+    margin: 5px 20px 5px 20px;
+    background: #8aa8df1d;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  table,th {
+    padding: 15px 20px 15px 20px;
+    background-color: #315AA8;
+    color: white;
+    /* width: 700px; */
+  }
+  
+  table, tr, td {
+    padding: 0px;
+    background-color: rgba(49, 90, 168, 0.10);
+    color: black;
+    border: 1px solid lightslategray;
+    width: 1000px;
+    height: 50px;
+  }
+  td:nth-child(4){
+    padding: 10px;
+    text-align: left;
+  }
+  td:nth-child(2){
+    padding: 10px;
+    text-align: left;
+  }
+  td:nth-child(3){
+    padding: 10px;
+    width: 100px;
+    text-align: left;
+  }
+  td:first-child{
+    width: 5px;
+  }
+  .btn-danger{
+      margin: 2px 0px 0px  0px;
+      font-size: 12px;
+  }
+  .btn-success {
+      margin: -12px 40px -15px 0px;
+      font-size: 12px;
+  }
+
+  button {
+    margin: 5px 5px 5px 10px;
+    padding: 10px 25px 10px 20px;
+    background: #315AA8;
+    color: azure;
+    border: 1px solid  #315AA8;
+    border-radius: 20px;
+  }
+
+  /* CSS untuk pop-up */
+  .popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 120px 520px;
+}
+
+.popup h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+  text-align: center;
+}
+form{
+    margin: 0px 50px;
+  }
+
+/* Style tambahan untuk form di dalam pop-up */
+.popup-content label,
+.popup-content input {
+      display: block;
+      margin-bottom: 10px;
+}
+.popup-content input, textarea{
+    font-size: 15px;
+    padding: 5px 20px;
+  background-color: #3e45564c;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+.popup-content button {
+    display: block;
+    margin-left: -2px;
+    padding: 5px 80px;
+    border-radius: 15px;
+}
+
+select{
+  font-size: 15px;
+  padding: 5px 5px;
+  width: 170px;
+  background-color: #3e45564c;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.close {
+ color: black;
+ float:right;
+ font-size:28px;
+ font-weight:bold;
+ cursor: pointer;
+}

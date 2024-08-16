@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  /* padding-left: 280px; */
+  margin: 0px;
+  padding: 0px 0px 0px 280px;
+}
+
+.box{
+  margin: 65px 220px 0px 180px;
+  display: inline-flex;
+  width: 620px;
+  height: 540px;
+  background: linear-gradient(-90deg, #315AA8 0%, rgba(166, 115, 232, 0.44) 100%); 
+  border-radius: 20px;
+}
+.form h1{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form{
+  padding: 15px 100px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 8px 6px;
+  width: 38vh;
+ }
+ 
+ 
+ input::placeholder{
+   color: rgba(116, 113, 113, 0.787);
+   text-transform: capitalize;
+ }
+
+
+ textarea{
+  outline: none;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+}
+button{
+  margin: 10px 0px;
+  padding: 5px 0px 20px 0px;
+  background-color: #3E4556;
+  border: none;
+  border-radius: 20px;
+  width: 410px;
+  height: 30px;
+}
+
+button a{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  
+}
+
+.time p {
+  margin: -71px 0px 0px 200px;
+
+}
+.time input{
+  margin-top: 10px;
+  margin-left: 200px;
+  width: 170px;
+}
+
+.date input{
+  width: 170px;
+}
+h2{
+  text-transform: uppercase;
+  margin: -5px 0px -5px 0px;
+}
+select {
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    width: 40vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+    

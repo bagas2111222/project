@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+        border-radius: 10px;
+        margin: -5px 250px;
+        padding: 10px 20px;
+        width: 1200px;
+        color: #f9f9f9;
+        text-align: center;
+    }
+
+    .header.red {
+        background-color: red;
+    }
+
+    .header.green {
+        background-color:rgb(67, 234, 67);
+    }
+
+.content {
+    background-color: rgba(49, 90, 168, 0.10);
+    border-radius: 20px;
+    margin: -43px 250px;
+    padding: 20px 20px;
+    width: 1200px;
+}
+
+.row {
+    margin: 50px 20px;
+    height: 110px;
+    display: inline-block;
+}
+
+.row h1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 0px 0px -2px;
+}
+
+.project {
+    margin: 20px 0px 10px 0px;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+
+
+
+button {
+    padding: 5px 60px;
+    margin: 0px 20px 10px 0px;
+    border-radius: 20px;
+    background-color: #315AA8;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.BAST {
+    margin: -20px 0px 0px 808px;
+    padding: 10px 30px 10px 30px;
+    top: -120px;
+    font-size: small;
+    outline: none;
+    border: none;
+}
+
+.btn-secondary {
+    border-radius: 20px;
+    margin: 10px 0px 10px 810px;
+    padding: 5px 50px 5px 50px;
+}
+
+table {
+    margin: 20px 50px 50px 10px;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th, td {
+    border: 1px solid rgba(81, 82, 83, 0.283);
+}
+
+tr, td {
+    margin: 20px 20px 20px 20px;
+    padding: 0px;
+    width: 110px;
+}
+td{
+    padding: 0px;
+}
+th {
+    text-transform: uppercase;
+    background-color: #315AA8;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+td a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-danger {
+    margin: 5px 0px 5px 0px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.btn-success {
+    margin: 5px 0px 5px 15px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.btn-primary {
+    margin: 5px 0px 5px 0px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.btn-warning {
+    margin: -58px -20px 0px 138px;
+    padding: 5px 10px;
+    color: #f9f9f9;
+    font-size: 10px;
+}
+
+.btn-warning:hover {
+    color: #f9f9f9;
+    background: rgb(255, 157, 0);
+    font-size: 10px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 60px 500px 60px 500px;
+    padding: 20px 0px 120px 0px;
+    border: 1px solid #888;
+    width: 40%;
+    height: auto; /* Adjust height to fit content */
+    max-height: 80vh; /* Limit maximum height to 80% of viewport height */
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+}
+
+#modal3 {
+    width: 40%;
+}
+.modal-content table{
+    width: 300px;
+    margin: 10px 160px;
+
+  }
+
+.close {
+    color: #aaa;
+    float: right; /* Change to "right" for proper alignment */
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 820px; /* Add margin to the right */
+}
+
+.close:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.file::-webkit-file-upload-button {
+    visibility: hidden;
+    display: none;
+}
+
+.file::before {
+    content: 'upload file';
+    display: inline-block;
+    background: #315AA8;
+    border-radius: 3px;
+    padding: 5px 20px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: white;
+}
+.file:hover::before {
+    border-color: black;
+}
+.file:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+input[type=file]{
+ background-color: #88888876;
+ border-radius: 10px;
+ color: white;
+ padding: 0px 20px;
+}
+
+.isi {
+    margin: 20px 0px 0px 20px;
+    text-align: left;
+}
+.close3, .close2, .close6, .close5 {
+    margin-left: 500px;
+   }
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+ 
+.content3 h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.content3 p{
+    margin: 2px 210px 2px 210px;
+    text-align: left;
+    font-size: 13px;
+}
+form{
+    margin: 0px 90px;
+    text-align: left;
+  }
+
+/* Style tambahan untuk form di dalam pop-up */
+.content3 label{
+    display: block;
+    margin-bottom: 10px;
+}
+.content3 input {
+      display: block;
+      margin-bottom: 10px;
+}
+.content3 input, textarea{
+    font-size: 15px;
+    padding: 5px 20px;
+  background-color: #3e45564c;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+.content3 button {
+    display: block;
+    margin-top: 20px;
+    margin-left: -2px;
+    padding: 5px 80px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+}
+
+.isi{
+    margin: 10px 80px 0px 0px;
+  }
+
+  .isi .btn-danger {
+    margin: 0px 0px 0px 150px;
+  }
+
+  .isi .btn-success {
+    margin: 0px 0px 0px 180px;
+  }
+
+  .isi .btn-info {
+    width: 120px;
+    background: #315AA8;
+    font-weight: 700px;
+  }

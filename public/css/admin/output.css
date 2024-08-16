@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    background-color:rgba(49, 90, 168, 0.10);
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 20px 250px;
+    padding: 20px 20px;
+    width: 1200px;
+}
+
+.row{
+    /* border: 2px solid bisque; */
+    margin: 20px 390px;
+    height: 110px;
+    display: inline-block; 
+
+}
+.row h1{
+    color: black;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.project a{
+    /* border: 2px solid black; */
+    text-decoration: none;
+}
+
+.project button{
+    border: 5px solid rgba(81, 82, 83, 0.283);
+    padding: 0px 50px;
+    margin: 0px 20px 0px 50px;
+    border-radius: 20px;
+    background-color: #315AA8;
+    color: #fff;
+}
+.project button a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif; 
+}
+
+.object{
+    border: 5px solid rgba(81, 82, 83, 0.283);
+    border-radius: 25px;
+    margin: 20px 120px 20px 20px;
+    padding: 10px 10px;
+    left: 20px;
+}
+.object .col{
+    color: black;
+    padding: 2px 5px;
+    margin: 10px 10px;
+}
+
+.col-head{
+    font-family: 'Poppins', sans-serif; 
+    padding: 2px 5px 10px 5px;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.object button{
+    margin: 0px 15px 10px 15px;
+    padding: 5px 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px;
+}
+
+#drive{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 8px 6px;
+    width: 38vh;
+}
+
+
+.file::-webkit-file-upload-button {
+    visibility: hidden;
+    display: none;
+}
+
+.file::before {
+    content: 'upload file';
+    display: inline-block;
+    background: #315AA8;
+    border-radius: 3px;
+    padding: 5px 20px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: white;
+}
+.file:hover::before {
+    border-color: black;
+}
+.file:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
